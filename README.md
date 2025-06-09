@@ -1,97 +1,76 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Examen 1 - AwesomeProject
 
-# Getting Started
+## Datos del estudiante
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+- **Nombre:** Rafael Adolfo Rosa
+- **Matrícula:** 2023-1025
+- **Respositorio**: [parcial-desarrollo-movil](https://github.com/Ipambe/parcial-desarrollo-movil)
 
-## Step 1: Start Metro
+## Descripción
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+Esta aplicación móvil fue desarrollada como parte del Examen 1. Cumple con los siguientes requisitos:
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+- **Presentación:** Pantalla de inicio con mi foto, nombre y apellido.
+- **Tabla de multiplicar:** Vista que acepta un número y muestra la tabla de multiplicar del 1 al 14.
+- **Números:** Vista que acepta 3 números y muestra el mayor, el menor y el promedio.
 
-```sh
-# Using npm
-npm start
+## Tecnología utilizada
 
-# OR using Yarn
-yarn start
-```
+- **Framework:** React Native
 
-## Step 2: Build and run your app
+## Estructura de la aplicación
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+- `src/screens/HomeScreen.tsx`: Pantalla de presentación con foto, nombre y apellido.
+- `src/screens/Tabla.tsx`: Vista para ingresar un número y mostrar su tabla de multiplicar.
+- `src/screens/NumerosScreen.tsx`: Vista para ingresar tres números y mostrar el mayor, menor y promedio.
+- `src/navigator/Navigator.tsx`: Navegación entre las vistas principales.
+- `src/App.tsx`: Configuración principal de la app.
 
-### Android
+## Comentarios en el código
 
-```sh
-# Using npm
-npm run android
+El código contiene comentarios con mi nombre y matrícula en al menos dos archivos diferentes, como lo solicita la tarea.
 
-# OR using Yarn
-yarn android
-```
+## Instalación y ejecución
 
-### iOS
+1. **Clonar el repositorio**
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+   ```sh
+   git clone https://github.com/Ipambe/parcial-desarrollo-movil.git
+   cd AwesomeProject
+   ```
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+2. **Instalar dependencias**
 
-```sh
-bundle install
-```
+   ```sh
+   npm install
+   ```
 
-Then, and every time you update your native dependencies, run:
+3. **Ejecutar en Android**
 
-```sh
-bundle exec pod install
-```
+   - Iniciar un emulador o conectar un dispositivo físico.
+   - Ejecutar:
+     ```sh
+     npm run android
+     ```
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+## Generar APK o instalar en un celular
 
-```sh
-# Using npm
-npm run ios
+- Para generar un APK de producción:
 
-# OR using Yarn
-yarn ios
-```
+  1. Ejecuta:
+     ```sh
+     cd android
+     ./gradlew assembleRelease
+     ```
+  2. El APK generado estará en `android/app/build/outputs/apk/release/app-release.apk`.
+  3. Copia el APK a tu dispositivo y ábrelo para instalar.
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+## Video
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+- **Link al video:** [Agrega aquí el enlace al video]
+- **QR al video:**  
+  (Agrega aquí el QR generado que apunte al video)
 
-## Step 3: Modify your app
+---
 
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+> _Este proyecto fue realizado siguiendo las indicaciones del examen, practicando varias veces antes de grabar el video y explicando cada paso en detalle._
