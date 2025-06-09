@@ -5,6 +5,7 @@
 - **Nombre:** Rafael Adolfo Rosa
 - **Matrícula:** 2023-1025
 - **Respositorio**: [parcial-desarrollo-movil](https://github.com/Ipambe/parcial-desarrollo-movil)
+- **Telegram**: [enlace-a-telegram](https://t.me/adolfo_rosa)
 
 ## Descripción
 
