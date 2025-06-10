@@ -68,7 +68,7 @@ El código contiene comentarios con mi nombre y matrícula en al menos dos archi
 
 ## Video
 
-- **Link al video:** [Agrega aquí el enlace al video]
+- **Link al video:** [Video](https://youtu.be/M70eirCnebs?si=-vi1X_F9M04tgFKc)
 - **QR al video:**  
   (Agrega aquí el QR generado que apunte al video)
 
