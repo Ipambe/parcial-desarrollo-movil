@@ -44,7 +44,7 @@ export const HomeScreen = ({ navigation }: HomeScreenProps) => {
         onPress={() => Linking.openURL('https://github.com/Ipambe')}
       >
         <Image
-          source={require('../assets/adolfo.png')}
+          source={require('../assets/adolfo.webp')}
           style={styles.image}
         />
         <View style={styles.profileInfo}>
