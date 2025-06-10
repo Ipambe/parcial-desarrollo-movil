@@ -5,6 +5,7 @@
 - **Nombre:** Rafael Adolfo Rosa
 - **Matrícula:** 2023-1025
 - **Respositorio**: [parcial-desarrollo-movil](https://github.com/Ipambe/parcial-desarrollo-movil)
+- **Telegram**: [enlace-a-telegram](https://t.me/adolfo_rosa)
 
 ## Descripción
 
@@ -67,10 +68,9 @@ El código contiene comentarios con mi nombre y matrícula en al menos dos archi
 
 ## Video
 
-- **Link al video:** [Agrega aquí el enlace al video]
-- **QR al video:**  
-  (Agrega aquí el QR generado que apunte al video)
-
+- **Link al video:** [Video](https://youtu.be/M70eirCnebs?si=-vi1X_F9M04tgFKc)
+- **QR al video:**
+  ![QR del video](video_qr.png)
 ---
 
 > _Este proyecto fue realizado siguiendo las indicaciones del examen, practicando varias veces antes de grabar el video y explicando cada paso en detalle._
