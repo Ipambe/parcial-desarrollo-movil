@@ -69,9 +69,8 @@ El código contiene comentarios con mi nombre y matrícula en al menos dos archi
 ## Video
 
 - **Link al video:** [Video](https://youtu.be/M70eirCnebs?si=-vi1X_F9M04tgFKc)
-- **QR al video:**  
-  (Agrega aquí el QR generado que apunte al video)
-
+- **QR al video:**
+  ![QR del video](video_qr.png)
 ---
 
 > _Este proyecto fue realizado siguiendo las indicaciones del examen, practicando varias veces antes de grabar el video y explicando cada paso en detalle._
